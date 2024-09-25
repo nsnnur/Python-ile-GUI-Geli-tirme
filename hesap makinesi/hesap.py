@@ -27,6 +27,7 @@ def calculate():
         except:
             result="error"
             equation= ""
+    equation=f"{result}"
     label_sonuc.config(text=result)
 
 
